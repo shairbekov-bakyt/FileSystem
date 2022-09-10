@@ -2,10 +2,11 @@ import sys
 
 from commands.init import init_fs
 from commands.add import add_file
+from commands.delete import del_file
 
 commands = {
     'add': add_file,
-    'del': 'delete',
+    'del': del_file,
     'init': init_fs,
     'list': 'list',
 }
